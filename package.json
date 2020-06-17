@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "netlify-cli": "^2.54.0",
     "netlify-plugin-fetch-feeds": "^0.2.2"
   }
 }
