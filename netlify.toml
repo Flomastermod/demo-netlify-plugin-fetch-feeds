@@ -23,5 +23,5 @@
        [[plugins.inputs.feeds]]
       name = "Motorockstar"
       url = "https://motorockstar.com/feed.json"
-      ttl = 86400   # Cache for 24 hours
+      ttl = 100   # Cache for 24 hours
       
