@@ -37,7 +37,7 @@ This site demonstrates <a href="https://github.com/philhawksworth/netlify-plugin
 <h2>Hawksworx</h2>
 <ul class="listing">
 {%- for item in hawksworx.entries.slice(0,4) -%}
-  <li><a href="{{ item.link }}">{{ item.title }}{{ item.description }}</a></li>
+  <li><a href="{{ item.link }}">{{ item.title.description }}{{ item.description }}</a></li>
 {%- endfor -%}
 </ul
 
